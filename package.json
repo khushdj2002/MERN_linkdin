@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "nodeJS": "^1.0.0",
+    "nodemon": "^2.0.20",
+    "npx-import": "^1.1.4",
+    "reactjs": "^1.0.0"
+  }
+}

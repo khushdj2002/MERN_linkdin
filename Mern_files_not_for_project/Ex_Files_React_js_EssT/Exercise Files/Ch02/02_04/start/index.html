@@ -10,17 +10,29 @@
       src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
       crossorigin
     ></script>
+    <!-- babel script is added -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+      
+    </script>
     <title>React ⚛️</title>
   </head>
   <body>
     <div id="root"></div>
-
-    <script type="text/javascript">
+    <!-- Working in jsx syntax-->
+    <script type="text/babel">
+      let robot ="🤖";
+      let cowboy ="🤠";
+      let emoji ="🌝";
+      let text = "React"
       ReactDOM.render(
         <ul>
-          <li>🤖</li>
-          <li>🤠</li>
-          <li>🌝</li>
+          <li>{robot}</li>
+          <li>{cowboy}</li>
+          <li>{emoji}</li>
+          <li>{text}</li>
+          <li>{text.length}</li>
+          <li>{text.toUpperCase()}</li>
+          <li>{text.toLowerCase()}</li>
         </ul>,
         document.getElementById("root")
       );
